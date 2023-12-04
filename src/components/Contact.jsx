@@ -47,8 +47,6 @@ const Contact = () => {
         })
     }
 
-    const hiddenElements = document.querySelectorAll(".contactshow");
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if(entry.isIntersecting){
@@ -60,12 +58,13 @@ const Contact = () => {
   });
 
   useEffect(() => {
+    const hiddenElements = document.querySelectorAll(".contactshow");
     hiddenElements.forEach((el) => observer.observe(el));
 
     return () => {
       hiddenElements.forEach((el) => observer.unobserve(el));
     }
-  }, [hiddenElements])
+  }, [])
 
     return (
         <div className='w-full'>
