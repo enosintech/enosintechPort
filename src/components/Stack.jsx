@@ -138,8 +138,6 @@ const Stack = () => {
         },
       ];
 
-      const hiddenElements = document.querySelectorAll(".stackshow");
-
       const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
           if(entry.isIntersecting){
@@ -151,12 +149,13 @@ const Stack = () => {
       });
 
       useEffect(() => {
+        const hiddenElements = document.querySelectorAll(".stackshow");
         hiddenElements.forEach((el) => observer.observe(el));
 
         return () => {
           hiddenElements.forEach((el) => observer.unobserve(el));
         }
-      }, [hiddenElements])
+      }, [])
 
     return (
         <div className='text-white w-[65%] mx-auto flex flex-row flex-wrap justify-center gap-10'>
