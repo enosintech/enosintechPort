@@ -16,8 +16,6 @@ const Space = () => {
         })
     }, [])
 
-    const hiddenElements = document.querySelectorAll(".spaceshow");
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
         if(entry.isIntersecting){
@@ -29,12 +27,13 @@ const Space = () => {
     });
 
     useEffect(() => {
+        const hiddenElements = document.querySelectorAll(".spaceshow");
         hiddenElements.forEach((el) => observer.observe(el));
 
         return () => {
         hiddenElements.forEach((el) => observer.unobserve(el));
         }
-    }, [hiddenElements])
+    }, [])
 
     return(
         <div className='spaceshow h-screen w-full xl:mt-0 mt-20 flex justify-center items-center text-white'>
