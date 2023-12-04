@@ -26,8 +26,6 @@ const ReviewCard = (props) => {
 }
 
 const Reviews = () => {
-  
-  const hiddenElements = document.querySelectorAll(".reviewshow");
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -40,12 +38,13 @@ const Reviews = () => {
   });
 
   useEffect(() => {
+    const hiddenElements = document.querySelectorAll(".reviewshow");
     hiddenElements.forEach((el) => observer.observe(el));
 
     return () => {
       hiddenElements.forEach((el) => observer.unobserve(el));
     }
-  }, [hiddenElements])
+  }, [])
 
     return (
         <div className='text-white mt-40 w-full h-screen reviewCard'>
