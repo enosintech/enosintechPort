@@ -162,8 +162,6 @@ const Project = () => {
     }
   } 
 
-  const hiddenElements = document.querySelectorAll(".projectshow");
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if(entry.isIntersecting){
@@ -175,12 +173,13 @@ const Project = () => {
   });
 
   useEffect(() => {
+    const hiddenElements = document.querySelectorAll(".projectshow");
     hiddenElements.forEach((el) => observer.observe(el));
 
     return () => {
       hiddenElements.forEach((el) => observer.unobserve(el));
     }
-  }, [hiddenElements])
+  }, [])
 
   useEffect(() => {
     populateMedium();
