@@ -481,8 +481,8 @@ const codingProjects = [
     id: 1,
     name: "EnosInTech",
     description:
-      "Enos in Tech is this very portfolio website that you are currently using. I built this website as a portfolio to demonstrate not only my portfolio design and development skills, but also my other projects that I have worked on and that I am currently working on. This portfolio is static and is built using only ReactJS. The only functionality in this portfolio is the contact me section in which I use Email JS as the Email backend service.",
-    link: "https://www.enosintech.onrender.com",  
+      "Enos In Tech is a portfolio website (this one) I built to showcase my various projects. I developed the project in React JS as a fully static website (there is no backend). Now you might notice the Contact Me feature and wonder how I did that on a static site, But do know I implemented it using the Email JS Backend As A Service API.",
+    link: "https://enosintech.onrender.com/",  
     responsive: "Fully Responsive",
     hosted: true,
     image: enosintech,
