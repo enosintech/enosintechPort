@@ -492,7 +492,7 @@ const codingProjects = [
     name: "You Seem Good To Me",
     description:
       "You seem Good to Me is an upcoming brand that I am currently working on based on self acceptance. The website is currently in the final stages of development and once complete, will be a website where users can visit and view blog articles that I will be writing. Users can also find other self acceptance resources on the page. The website is built using the Mern Stack. That is, MongoDB for data persistency, Express for serving, React for the frontend and Node JS for the backend. Other frameworks that this website uses are Redux for State Management and Three JS for 3D rendering.",
-    link: "https://enosintech.github.io/",  
+    link: "https://github.com/enosintech/youseemgoodtome",  
     responsive: "Fully Responsive",
     hosted: false,
     image: ysgtmblog,
@@ -502,7 +502,7 @@ const codingProjects = [
     name: "BantuRide",
     description:
       "A soon to launch ride share application based in Zambia. BantuRide is a mobile application where users can book ehailing rides from one place to another. It is built for both Android and IOS platform using React Native. BantuRide is a project I worked on with two other people in which I was responsible for mostly front end development.",
-    link: "",  
+    link: "https://github.com/enosintech/banturide",  
     responsive: "Fully Mobile Responsive",
     hosted: false,
     image: banturide,
@@ -511,8 +511,8 @@ const codingProjects = [
     id: 4,
     name: "Bright",
     description:
-      "A project I developed as a final year project and that I one day hope to deploy to production, Bright is a wellness application focused on human moods. It does this by allowing users to connect with other users feeling a similar way over the application. Bright was built using React Native and Firebase.",
-    link: "",  
+      "Bright is a Cross Platform mobile application I developed as part of my studies. Built in React Native, Bright is a social wellness application where one can track and manage their stress levels and emotions, as well as connect with other people feeling similar feelings. The application was developed with Firebase for the backend and TailwindCSS through Native Wind for UI design and implmentation.",
+    link: "https://github.com/enosintech/bright",  
     responsive: "Semi Mobile Responsive",
     hosted: false,
     image: bright,
@@ -541,8 +541,8 @@ const codingProjects = [
     id: 7,
     name: "Spotify Light Mode",
     description:
-      "A frontend project I worked on where I redesigned the Spotify Desktop Application to give it a Light Mode and arguably better icons. This project was done in ReactJS.",
-    link: "",  
+      "This is a front end practice project that I undertook in which I redeveloped the Spotify desktop application front end UI and redesigned it to give it a Light Mode as well as arguably Better Icons. This project was developed in React JS and Tailwind CSS.",
+    link: "https://github.com/enosintech/spotifylightmode",  
     responsive: "Partially Responsive",
     hosted: false,
     image: spotifylite,
