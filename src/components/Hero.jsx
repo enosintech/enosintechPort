@@ -59,7 +59,7 @@ const Hero = () => {
                 <div className='text-center bg-black'>
                     <h1 className='font-opensans font-extrabold lg:text-[80px] sm:text-[45px] md:text-[50px] xs:text-[35px] xxxs:text-[28px] text-[35px] lg:leading-[98px] mt-2'>Hi, I am <span className='text-green'>Enos!</span></h1>
                     <p className='font-opensans select-none text-white font-normal xxxs:text-[15px] xs:text-[18px] sm:text-[25px] text-[23px] lg:leading-[40px]'>
-                        I develop both Full Stack Web Apps with <span className='text-green'>React.js</span> and Cross platform Mobile Apps with <span className='text-green'>React Native.</span>  I also write confessional poetry and really love fashion.
+                        I develop both Full Stack Web Apps with <span className='text-green'>ReactJS</span> and Cross platform Mobile Apps with <span className='text-green'>React Native.</span>  I also write confessional poetry and really love fashion.
                     </p>
                 </div>
                 <div className='flex flex-col items-center mt-5'>
