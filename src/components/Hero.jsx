@@ -82,7 +82,7 @@ const Hero = () => {
 
             </div>
 
-            <div className='absolute font-mono md:bottom-10 bottom-5 z-30 text-green md:text-[15px] text-[10px] sm:px-16 px-6 w-fit flex justify-start items-center'>
+            <div className='absolute font-bold md:bottom-10 bottom-5 z-30 text-green md:text-[15px] text-[10px] sm:px-16 px-6 w-fit flex justify-start items-center'>
                 <span className='hover:opacity-50 active:opacity-25 cursor-pointer select-none' onClick={() => {
                     setVisible(!visible)
                 }}>VIEW RESUME & CERTIFICATIONS</span>
