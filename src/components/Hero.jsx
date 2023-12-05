@@ -69,11 +69,11 @@ const Hero = () => {
             </div>
 
             <div className='flex w-full justify-center'>
-                    <img className='absolute z-20 lg:top-[40%] md:top-[43%] sm:top-[45%] top-[48%] xs:top-[60%] xxs:top-[50%] xxxs:top-[70%] animate-astrobounce mask' src={astro} alt="A picture of an Astronaut"/>
+                    <img className='absolute z-20 lg:top-[40%] md:top-[43%] sm:top-[45%] top-[48%] xs:top-[58%] xxs:top-[50%] xxxs:top-[70%] animate-astrobounce mask' src={astro} alt="A picture of an Astronaut"/>
                     <div className='absolute z-0 lg:top-[30%] md:top-[35%] sm:top-[40%] top-[38%] w-[400px] h-[300px]'></div>
             </div>
 
-            <div className='absolute xxxs:bottom-10 s:bottom-14 xs:bottom-20 z-30 bottom-20 w-full flex justify-center items-center'>
+            <div className='absolute xxxs:bottom-10 s:bottom-14 xs:bottom-14 z-30 bottom-20 w-full flex justify-center items-center'>
                 <a>
                     <div className='w-[50px] h-[50px] rounded-full border-4 border-white flex justify-center items-center p-2'>
                         <img className='animate-bounce' src={arrow} alt="an upward arrow"/>
