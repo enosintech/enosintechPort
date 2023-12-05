@@ -88,10 +88,10 @@ const reviews = [
     date: "July, 2022"
   },
   {
-    testimonial: "Overall, Enos has done great work and has really impressed me with his ability to complete tasks under minimum supervision. He is definitely someone who can work from home and with an English-speaking employer. My only suggestion for him is to try and gain more work experience so that he can expand his skillsets more.",
+    testimonial: "Enos has truly inspired me with his innovative and creative approach to design. I asked him to make me a website on short notice on a Thursday afternoon and I told him I wanted it by Tuesday. On Tuesday morning Enos sent me the link. I was really impressed with his reliability even under such short notice.",
     name: "Shikayuni Chilukutu",
-    designation: "HR Manager",
-    company: "Fresh Futures Australia",
+    designation: "Manager",
+    company: "Chilukutu Estates",
     date: "December, 2023"
   },
 ];
