@@ -44,7 +44,7 @@ const Hero = () => {
     }
 
     return (
-        <section className='relative heroSection w-full text-white h-screen mx-auto' onLoad={() => {
+        <section className='relative heroSection w-full text-white h-full mx-auto' onLoad={() => {
             createStars(1, 20);
             createStars(2, 40);
             createStars(3, 30);
