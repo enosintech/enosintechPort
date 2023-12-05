@@ -221,7 +221,7 @@ const Project = () => {
                         grabCursor={true}
                         centeredSlides={true}
                         loop={true}
-                        slidesPerView={'3'}
+                        slidesPerView={window.innerWidth < 900 ? "1" : "3"}
                         coverFlowEffect={{
                           rotate: 0,
                           stretch: 0,
@@ -282,7 +282,7 @@ const Project = () => {
                                 grabCursor={true}
                                 centeredSlides={true}
                                 loop={true}
-                                slidesPerView={'3'}
+                                slidesPerView={window.innerWidth < 900 ? "1" : "3"}
                                 coverFlowEffect={{
                                   rotate: 0,
                                   stretch: 0,
@@ -330,7 +330,7 @@ const Project = () => {
                                 grabCursor={true}
                                 centeredSlides={true}
                                 loop={true}
-                                slidesPerView={'3'}
+                                slidesPerView={window.innerWidth < 900 ? "1" : "3"}
                                 coverFlowEffect={{
                                   rotate: 0,
                                   stretch: 0,
@@ -382,7 +382,7 @@ const Project = () => {
                                 grabCursor={true}
                                 centeredSlides={true}
                                 loop={true}
-                                slidesPerView={'3'}
+                                slidesPerView={window.innerWidth < 900 ? "1" : "3"}
                                 coverFlowEffect={{
                                   rotate: 0,
                                   stretch: 0,
