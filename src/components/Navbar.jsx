@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className='hidden lg:flex justify-center items-center gap-3'>
                 <a href='https://github.com/enosintech' target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active-opacity-50' icon={faGithub} /></a>
                 <a href='https://medium.com/@enos.nsambaj' target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active-opacity-50' icon={faMedium} /></a>
-                <a href='https://www.linkedin.com/in/enos-nsamba-a43a76157/' target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active-opacity-50' icon={faLinkedin} /></a>
+                <a href='https://www.linkedin.com/in/enosintech/' target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active-opacity-50' icon={faLinkedin} /></a>
             </div>
             </div>
         
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div className='flex justify-center items-center gap-2'>
                     <a href="https://github.com/enosintech" target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active:opacity-50' icon={faGithub}/></a>
                     <a href="https://medium.com/@enos.nsambaj" target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active:opacity-50' icon={faMedium}/></a>
-                    <a href="https://www.linkedin.com/in/enos-nsamba-a43a76157/" target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active:opacity-50' icon={faLinkedin}/></a>
+                    <a href="https://www.linkedin.com/in/enosintech/" target="_blank"><FontAwesomeIcon className='h-6 w-6 hover:opacity-75 text-white active:opacity-50' icon={faLinkedin}/></a>
                 </div>
             </div>
         </div>
