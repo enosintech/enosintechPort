@@ -21,7 +21,7 @@ import bright from "../assets/bright.jpeg";
 import forchisanga from "../assets/forchisanga.png";
 import spotifylite from "../assets/spotifylite.png";
 import ramsprod from "../assets/ramsprod.png";
-import jupyter from "../assets/jupyter.png;
+import jupyter from "../assets/jupyter.png";
 
 const ProjectCard = (props) => {
     return (
