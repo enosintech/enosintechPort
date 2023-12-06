@@ -21,6 +21,7 @@ import bright from "../assets/bright.jpeg";
 import forchisanga from "../assets/forchisanga.png";
 import spotifylite from "../assets/spotifylite.png";
 import ramsprod from "../assets/ramsprod.png";
+import jupyter from "../assets/jupyter.png;
 
 const ProjectCard = (props) => {
     return (
@@ -506,7 +507,17 @@ const codingProjects = [
     responsive: "Fully Mobile Responsive",
     hosted: false,
     image: banturide,
-  },
+  },  
+    {
+    id: 8,
+    name: "Heart Disease Classification",
+    description:
+      "The heart disease classification project is a project I worked on during my earlier days of development in which I was more focused on learning Machine learning with Python. For this project, I used a database from the UCI Machine Learning Repository and my problem statement was, `given medical parameters about a patient, can I predict whether or not they have heart disease before they get a diagnosis? The Project was done in a jupyter Notebook and made use of Pandas & Numpy for for data exploration, and ScikitLearn for training and fiting the model to the data. Three models were trained with the following machine learning algorithms: Logistic Regression, K Nearest Neighbour and Random Forest Classifier.   ",
+    link: "https://github.com/enosintech/heartdiseaseclassification",  
+    responsive: "Responsive",
+    hosted: false,
+    image: jupyter,
+  }, 
   {
     id: 4,
     name: "Bright",
